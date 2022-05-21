@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 600px;
+    width: 600px;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    position: relative;
+}
+
+.card:hover {
+    border: 3px solid black;
+}
+
+.cardBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.cardBackTransparent {
+    visibility: hidden;
+}
+
+.cardMatched {
+    visibility: hidden;
+}
+
+.cardMatchedMain {
+    transform: scale(0.9);
+}
+
+.cardMatchedMain:hover {
+    border: 1px solid black;
+}
