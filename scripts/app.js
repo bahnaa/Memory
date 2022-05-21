@@ -1,5 +1,3 @@
-// f90a2bd86df88dc32f5193602f2ea29a
-
 const cards = document.querySelectorAll(".card");
 
 const movesCounter = document.querySelector("p");
@@ -110,30 +108,3 @@ function allowMove(time) {
     counter.clicks = 0;
   }, time);
 }
-
-// switch(memoName) {
-//     case 'shrek':
-//         counter.shrek++;
-//         break;
-//     case 'fiona':
-//         counter.fiona++;
-//         break;
-//     case 'donkey':
-//         counter.donkey++;
-//         break;
-//     case 'wolf':
-//         counter.wolf++;
-//         break;
-//     case 'shrekhuman':
-//         counter.shrekhuman++;
-//         break;
-//     case 'dragon':
-//         counter.dragon++;
-//         break;
-//     case 'lord':
-//         counter.lord++;
-//         break;
-//     case 'cat':
-//         counter.cat++;
-//         break;
-// }
