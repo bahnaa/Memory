@@ -53,3 +53,20 @@ body {
 .cardMatchedMain:hover {
     border: 1px solid black;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    .container {
+        width: 480px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 360px;
+        height: 360px;
+    }
+}
