@@ -40,7 +40,7 @@ cards.forEach((element) => {
   counter[memoName]++;
 
   element.dataset.name = memoName;
-  element.style.backgroundImage = `url('./assets/photos/${memoName}.png')`;
+  element.style.backgroundImage = `url('../assets/photos/${memoName}.png')`;
   element.style.backgroundSize = "cover";
   for (const prop in counter) {
     if (counter[prop] > 1) {
